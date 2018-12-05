@@ -1,0 +1,65 @@
+@import '../../styles/global.scss';
+
+.ApodComponent {
+  @include flexContainer(true);
+  padding: 20px;
+  justify-content: center;
+
+  .ApodContainer {
+    @include flexContainer(true);
+    color: $black;
+    flex-direction: column;
+    img {
+      max-width: 100%;
+    }
+
+    .hdurl {
+      margin-top: 35px;
+      @include flex;
+      justify-content: center;
+      img {
+        height: 100vh;
+      }
+    }
+
+    .ApodTitle {
+      @include flex;
+      justify-content: center;
+      height: 65px;
+      align-items: center;
+      margin-bottom: 10px;
+      img {
+        height: 64px;
+      }
+    }
+
+    .ApodDetails {
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 $black;
+      margin-top: 30px;
+      &:hover {
+        box-shadow: 0 6px 16px 0 $black;
+      }
+
+      p {
+        text-align: right;
+        margin: 5px 5px;
+      }
+
+      .explanation {
+        text-align: inherit;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.loaderContainer {
+  @include flexContainer(true);
+  min-height: 100vh;
+  align-items: center;
+}
+
+.errorContainer {
+  @include errorScreen;
+}
