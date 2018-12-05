@@ -72,7 +72,7 @@ export default class ApodComponent extends Component {
               <p className={styles.explanation}> {apodRes.explanation} </p>
               <p>
                 {' '}
-                by: <b>{apodRes.copyright}</b>
+                by: <b>{apodRes.copyright || 'NASA'}</b>
               </p>
               <p> date: {apodRes.date} </p>
               <p>Media type: {apodRes.media_type}</p>
