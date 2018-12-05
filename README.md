@@ -2,7 +2,7 @@
 
 ## DEMO
 
-I read a lot of technical tests daily and would appreciate it if my candidates do this -> [LINK](https://build-cdhyptxwex.now.sh/)
+I read a lot of technical tests daily and would appreciate it if my candidates do this -> [LINK](https://build-ncvogwphxv.now.sh/)
 
 ## Instalation requirements
 
